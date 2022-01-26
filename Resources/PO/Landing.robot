@@ -6,7 +6,7 @@ ${Menu_Item_Team}       css=div[role='combobox'] input[placeholder*='Neighbourho
 
 *** Keywords ***
 The "Condos.ca" page should load
-    Wait Until Page Contains Element    ${Menu_Item_Team}       timeout=90
+    Wait Until Page Contains Element    ${Menu_Item_Team}       timeout=60
     Click Element                       ${Menu_Item_Team}
     Input Text                          ${Menu_Item_Team}       Toronto
-
+    Sleep                               60s
