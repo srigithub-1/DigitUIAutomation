@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.4 on win32)" generated="20220130 13:17:48.682" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.7.4 on win32)" generated="20220130 19:16:55.979" rpa="false">
 <suite id="s1" name="UIAutomation" source="E:\Srinath\Canada\Selenium\Robot\DigitUIAutomation\tests\UIAutomation.robot">
 <test id="s1-t1" name="TC01_CondosApplicationAutomation">
 <kw name="Begin Web Test" library="CommonWeb" type="setup">
@@ -9,14 +9,14 @@
 <arg>${BROWSER_URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20220130 13:17:49.144" level="INFO">Opening browser 'gc' to base url 'http://www.condos.ca'.</msg>
-<status status="PASS" starttime="20220130 13:17:49.144" endtime="20220130 13:17:55.207"></status>
+<msg timestamp="20220130 19:16:56.744" level="INFO">Opening browser 'gc' to base url 'http://www.condos.ca'.</msg>
+<status status="PASS" starttime="20220130 19:16:56.742" endtime="20220130 19:17:06.213"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220130 13:17:55.207" endtime="20220130 13:17:57.165"></status>
+<status status="PASS" starttime="20220130 19:17:06.213" endtime="20220130 19:17:08.633"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:17:49.144" endtime="20220130 13:17:57.165"></status>
+<status status="PASS" starttime="20220130 19:16:56.740" endtime="20220130 19:17:08.634"></status>
 </kw>
 <kw name="When I Navigate to the &quot;Condos.ca&quot; Page" library="FrontOfficeApp">
 <kw name="The &quot;Condos.ca&quot; page should load" library="Landing">
@@ -26,22 +26,22 @@
 <arg>xpath=//body</arg>
 <arg>TAB</arg>
 </arguments>
-<msg timestamp="20220130 13:17:57.165" level="INFO">Sending key(s) ('TAB',) to xpath=//body element.</msg>
-<msg timestamp="20220130 13:18:00.487" level="INFO">Pressing special key TAB to element.</msg>
-<msg timestamp="20220130 13:18:00.487" level="INFO">Releasing special key TAB.</msg>
-<status status="PASS" starttime="20220130 13:17:57.165" endtime="20220130 13:18:00.681"></status>
+<msg timestamp="20220130 19:17:08.780" level="INFO">Sending key(s) ('TAB',) to xpath=//body element.</msg>
+<msg timestamp="20220130 19:17:11.962" level="INFO">Pressing special key TAB to element.</msg>
+<msg timestamp="20220130 19:17:11.963" level="INFO">Releasing special key TAB.</msg>
+<status status="PASS" starttime="20220130 19:17:08.775" endtime="20220130 19:17:12.158"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>10s</arg>
 </arguments>
-<msg timestamp="20220130 13:18:10.685" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" starttime="20220130 13:18:00.681" endtime="20220130 13:18:10.685"></status>
+<msg timestamp="20220130 19:17:22.177" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20220130 19:17:12.160" endtime="20220130 19:17:22.177"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:17:57.165" endtime="20220130 13:18:10.686"></status>
+<status status="PASS" starttime="20220130 19:17:08.774" endtime="20220130 19:17:22.178"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:17:57.165" endtime="20220130 13:18:10.686"></status>
+<status status="PASS" starttime="20220130 19:17:08.768" endtime="20220130 19:17:22.179"></status>
 </kw>
 <kw name="Then I Wait for the Search Box on &quot;Condos.ca&quot; to be enabled and search for Toronto Properties" library="FrontOfficeApp">
 <kw name="The Search Box should be enabled on the Landing Page and User should be able to enter &quot;Toronto&quot; in it" library="Landing">
@@ -51,7 +51,7 @@
 <arg>${Search_Box}</arg>
 <arg>timeout=10</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:10.687" endtime="20220130 13:18:10.798"></status>
+<status status="PASS" starttime="20220130 19:17:22.183" endtime="20220130 19:17:22.343"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -59,8 +59,8 @@
 <arg>${Search_Box}</arg>
 <arg>Toronto</arg>
 </arguments>
-<msg timestamp="20220130 13:18:10.800" level="INFO">Typing text 'Toronto' into text field 'xpath=//div//input[@type='text']'.</msg>
-<status status="PASS" starttime="20220130 13:18:10.799" endtime="20220130 13:18:11.264"></status>
+<msg timestamp="20220130 19:17:22.344" level="INFO">Typing text 'Toronto' into text field 'xpath=//div//input[@type='text']'.</msg>
+<status status="PASS" starttime="20220130 19:17:22.343" endtime="20220130 19:17:22.977"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
@@ -68,19 +68,19 @@
 <arg>${Selection_Option}</arg>
 <arg>timeout=5</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:11.264" endtime="20220130 13:18:11.369"></status>
+<status status="PASS" starttime="20220130 19:17:22.977" endtime="20220130 19:17:23.138"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${Selection_Option}</arg>
 </arguments>
-<msg timestamp="20220130 13:18:11.369" level="INFO">Clicking element 'xpath=//div[contains(@class,'Result')]//div[text()='Toronto']'.</msg>
-<status status="PASS" starttime="20220130 13:18:11.369" endtime="20220130 13:18:11.699"></status>
+<msg timestamp="20220130 19:17:23.139" level="INFO">Clicking element 'xpath=//div[contains(@class,'Result')]//div[text()='Toronto']'.</msg>
+<status status="PASS" starttime="20220130 19:17:23.139" endtime="20220130 19:17:23.519"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:10.687" endtime="20220130 13:18:11.700"></status>
+<status status="PASS" starttime="20220130 19:17:22.182" endtime="20220130 19:17:23.520"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:10.687" endtime="20220130 13:18:11.700"></status>
+<status status="PASS" starttime="20220130 19:17:22.180" endtime="20220130 19:17:23.520"></status>
 </kw>
 <kw name="And Properties Page Should Be Displayed" library="FrontOfficeApp">
 <kw name="All the Properties Should be Shown" library="Properties">
@@ -90,15 +90,15 @@
 <arg>${Google_Maps}</arg>
 <arg>timeout=5</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:11.704" endtime="20220130 13:18:12.655"></status>
+<status status="PASS" starttime="20220130 19:17:23.527" endtime="20220130 19:17:24.487"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${Google_Maps}</arg>
 </arguments>
-<msg timestamp="20220130 13:18:12.656" level="INFO">Clicking element 'xpath=//button[text()='Close Map']'.</msg>
-<status status="PASS" starttime="20220130 13:18:12.655" endtime="20220130 13:18:16.092"></status>
+<msg timestamp="20220130 19:17:24.488" level="INFO">Clicking element 'xpath=//button[text()='Close Map']'.</msg>
+<status status="PASS" starttime="20220130 19:17:24.487" endtime="20220130 19:17:26.512"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
@@ -106,7 +106,7 @@
 <arg>${PropertyListPage}</arg>
 <arg>timeout=10</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:16.092" endtime="20220130 13:18:16.181"></status>
+<status status="PASS" starttime="20220130 19:17:26.512" endtime="20220130 19:17:28.048"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns the number of elements matching ``locator``.</doc>
@@ -116,8 +116,8 @@
 <assign>
 <var>${NoofHouses}</var>
 </assign>
-<msg timestamp="20220130 13:18:16.318" level="INFO">${NoofHouses} = 48</msg>
-<status status="PASS" starttime="20220130 13:18:16.182" endtime="20220130 13:18:16.318"></status>
+<msg timestamp="20220130 19:17:28.837" level="INFO">${NoofHouses} = 48</msg>
+<status status="PASS" starttime="20220130 19:17:28.048" endtime="20220130 19:17:28.837"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -127,8 +127,8 @@
 <assign>
 <var>${EndValue}</var>
 </assign>
-<msg timestamp="20220130 13:18:16.319" level="INFO">${EndValue} = 48</msg>
-<status status="PASS" starttime="20220130 13:18:16.318" endtime="20220130 13:18:16.319"></status>
+<msg timestamp="20220130 19:17:28.839" level="INFO">${EndValue} = 48</msg>
+<status status="PASS" starttime="20220130 19:17:28.838" endtime="20220130 19:17:28.839"></status>
 </kw>
 <kw name="${i} IN RANGE [ 1 | ${EndValue} ]" type="for">
 <kw name="${i} = 1" type="foritem">
@@ -140,8 +140,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:16.461" level="INFO">${AskPrice} = $1,174,900</msg>
-<status status="PASS" starttime="20220130 13:18:16.319" endtime="20220130 13:18:16.461"></status>
+<msg timestamp="20220130 19:17:29.532" level="INFO">${AskPrice} = $998,000</msg>
+<status status="PASS" starttime="20220130 19:17:28.841" endtime="20220130 19:17:29.532"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -149,9 +149,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:16.462" endtime="20220130 13:18:16.462"></status>
+<status status="PASS" starttime="20220130 19:17:29.533" endtime="20220130 19:17:29.534"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:16.319" endtime="20220130 13:18:16.463"></status>
+<status status="PASS" starttime="20220130 19:17:28.840" endtime="20220130 19:17:29.534"></status>
 </kw>
 <kw name="${i} = 2" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -162,8 +162,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:17.634" level="INFO">${AskPrice} = $1,089,900</msg>
-<status status="PASS" starttime="20220130 13:18:16.463" endtime="20220130 13:18:17.634"></status>
+<msg timestamp="20220130 19:17:31.748" level="INFO">${AskPrice} = $549,800</msg>
+<status status="PASS" starttime="20220130 19:17:29.535" endtime="20220130 19:17:31.748"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -171,9 +171,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:17.635" endtime="20220130 13:18:17.636"></status>
+<status status="PASS" starttime="20220130 19:17:31.748" endtime="20220130 19:17:31.749"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:16.463" endtime="20220130 13:18:17.636"></status>
+<status status="PASS" starttime="20220130 19:17:29.535" endtime="20220130 19:17:31.749"></status>
 </kw>
 <kw name="${i} = 3" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -184,8 +184,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:18.898" level="INFO">${AskPrice} = $649,900</msg>
-<status status="PASS" starttime="20220130 13:18:17.637" endtime="20220130 13:18:18.898"></status>
+<msg timestamp="20220130 19:17:31.957" level="INFO">${AskPrice} = $610,000</msg>
+<status status="PASS" starttime="20220130 19:17:31.750" endtime="20220130 19:17:31.957"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -193,9 +193,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:18.898" endtime="20220130 13:18:18.898"></status>
+<status status="PASS" starttime="20220130 19:17:31.958" endtime="20220130 19:17:31.958"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:17.636" endtime="20220130 13:18:18.898"></status>
+<status status="PASS" starttime="20220130 19:17:31.750" endtime="20220130 19:17:31.958"></status>
 </kw>
 <kw name="${i} = 4" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -206,8 +206,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.042" level="INFO">${AskPrice} = $998,000</msg>
-<status status="PASS" starttime="20220130 13:18:18.898" endtime="20220130 13:18:19.042"></status>
+<msg timestamp="20220130 19:17:32.041" level="INFO">${AskPrice} = $899,900</msg>
+<status status="PASS" starttime="20220130 19:17:31.959" endtime="20220130 19:17:32.042"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -215,9 +215,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.042" endtime="20220130 13:18:19.042"></status>
+<status status="PASS" starttime="20220130 19:17:32.042" endtime="20220130 19:17:32.043"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:18.898" endtime="20220130 13:18:19.042"></status>
+<status status="PASS" starttime="20220130 19:17:31.959" endtime="20220130 19:17:32.043"></status>
 </kw>
 <kw name="${i} = 5" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -228,8 +228,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.172" level="INFO">${AskPrice} = $599,900</msg>
-<status status="PASS" starttime="20220130 13:18:19.042" endtime="20220130 13:18:19.172"></status>
+<msg timestamp="20220130 19:17:32.157" level="INFO">${AskPrice} = $1,174,900</msg>
+<status status="PASS" starttime="20220130 19:17:32.044" endtime="20220130 19:17:32.157"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -237,9 +237,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.172" endtime="20220130 13:18:19.173"></status>
+<status status="PASS" starttime="20220130 19:17:32.158" endtime="20220130 19:17:32.158"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.042" endtime="20220130 13:18:19.174"></status>
+<status status="PASS" starttime="20220130 19:17:32.043" endtime="20220130 19:17:32.159"></status>
 </kw>
 <kw name="${i} = 6" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -250,8 +250,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.255" level="INFO">${AskPrice} = $899,900</msg>
-<status status="PASS" starttime="20220130 13:18:19.174" endtime="20220130 13:18:19.255"></status>
+<msg timestamp="20220130 19:17:32.310" level="INFO">${AskPrice} = $1,089,900</msg>
+<status status="PASS" starttime="20220130 19:17:32.159" endtime="20220130 19:17:32.310"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -259,9 +259,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.255" endtime="20220130 13:18:19.256"></status>
+<status status="PASS" starttime="20220130 19:17:32.311" endtime="20220130 19:17:32.312"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.174" endtime="20220130 13:18:19.256"></status>
+<status status="PASS" starttime="20220130 19:17:32.159" endtime="20220130 19:17:32.312"></status>
 </kw>
 <kw name="${i} = 7" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -272,8 +272,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.393" level="INFO">${AskPrice} = $579,900</msg>
-<status status="PASS" starttime="20220130 13:18:19.256" endtime="20220130 13:18:19.393"></status>
+<msg timestamp="20220130 19:17:32.384" level="INFO">${AskPrice} = $649,900</msg>
+<status status="PASS" starttime="20220130 19:17:32.313" endtime="20220130 19:17:32.384"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -281,9 +281,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.393" endtime="20220130 13:18:19.394"></status>
+<status status="PASS" starttime="20220130 19:17:32.384" endtime="20220130 19:17:32.385"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.256" endtime="20220130 13:18:19.394"></status>
+<status status="PASS" starttime="20220130 19:17:32.313" endtime="20220130 19:17:32.386"></status>
 </kw>
 <kw name="${i} = 8" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -294,8 +294,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.504" level="INFO">${AskPrice} = $849,999</msg>
-<status status="PASS" starttime="20220130 13:18:19.394" endtime="20220130 13:18:19.504"></status>
+<msg timestamp="20220130 19:17:32.442" level="INFO">${AskPrice} = $599,900</msg>
+<status status="PASS" starttime="20220130 19:17:32.386" endtime="20220130 19:17:32.443"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -303,9 +303,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.505" endtime="20220130 13:18:19.506"></status>
+<status status="PASS" starttime="20220130 19:17:32.443" endtime="20220130 19:17:32.444"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.394" endtime="20220130 13:18:19.506"></status>
+<status status="PASS" starttime="20220130 19:17:32.386" endtime="20220130 19:17:32.444"></status>
 </kw>
 <kw name="${i} = 9" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -316,8 +316,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.642" level="INFO">${AskPrice} = $816,000</msg>
-<status status="PASS" starttime="20220130 13:18:19.506" endtime="20220130 13:18:19.642"></status>
+<msg timestamp="20220130 19:17:32.498" level="INFO">${AskPrice} = $579,900</msg>
+<status status="PASS" starttime="20220130 19:17:32.444" endtime="20220130 19:17:32.498"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -325,9 +325,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.642" endtime="20220130 13:18:19.642"></status>
+<status status="PASS" starttime="20220130 19:17:32.498" endtime="20220130 19:17:32.499"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.506" endtime="20220130 13:18:19.642"></status>
+<status status="PASS" starttime="20220130 19:17:32.444" endtime="20220130 19:17:32.499"></status>
 </kw>
 <kw name="${i} = 10" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -338,8 +338,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.703" level="INFO">${AskPrice} = $624,900</msg>
-<status status="PASS" starttime="20220130 13:18:19.642" endtime="20220130 13:18:19.703"></status>
+<msg timestamp="20220130 19:17:32.551" level="INFO">${AskPrice} = $849,999</msg>
+<status status="PASS" starttime="20220130 19:17:32.500" endtime="20220130 19:17:32.551"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -347,9 +347,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.703" endtime="20220130 13:18:19.703"></status>
+<status status="PASS" starttime="20220130 19:17:32.551" endtime="20220130 19:17:32.552"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.642" endtime="20220130 13:18:19.703"></status>
+<status status="PASS" starttime="20220130 19:17:32.499" endtime="20220130 19:17:32.552"></status>
 </kw>
 <kw name="${i} = 11" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -360,8 +360,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.782" level="INFO">${AskPrice} = $739,990</msg>
-<status status="PASS" starttime="20220130 13:18:19.703" endtime="20220130 13:18:19.782"></status>
+<msg timestamp="20220130 19:17:32.597" level="INFO">${AskPrice} = $816,000</msg>
+<status status="PASS" starttime="20220130 19:17:32.553" endtime="20220130 19:17:32.597"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -369,9 +369,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.782" endtime="20220130 13:18:19.786"></status>
+<status status="PASS" starttime="20220130 19:17:32.597" endtime="20220130 19:17:32.598"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.703" endtime="20220130 13:18:19.786"></status>
+<status status="PASS" starttime="20220130 19:17:32.552" endtime="20220130 19:17:32.598"></status>
 </kw>
 <kw name="${i} = 12" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -382,8 +382,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.854" level="INFO">${AskPrice} = $659,990</msg>
-<status status="PASS" starttime="20220130 13:18:19.786" endtime="20220130 13:18:19.854"></status>
+<msg timestamp="20220130 19:17:32.638" level="INFO">${AskPrice} = $624,900</msg>
+<status status="PASS" starttime="20220130 19:17:32.598" endtime="20220130 19:17:32.638"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -391,9 +391,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.854" endtime="20220130 13:18:19.854"></status>
+<status status="PASS" starttime="20220130 19:17:32.638" endtime="20220130 19:17:32.639"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.786" endtime="20220130 13:18:19.854"></status>
+<status status="PASS" starttime="20220130 19:17:32.598" endtime="20220130 19:17:32.639"></status>
 </kw>
 <kw name="${i} = 13" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -404,8 +404,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.919" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:19.854" endtime="20220130 13:18:19.919"></status>
+<msg timestamp="20220130 19:17:32.688" level="INFO">${AskPrice} = $1,249,500</msg>
+<status status="PASS" starttime="20220130 19:17:32.639" endtime="20220130 19:17:32.688"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -413,9 +413,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.919" endtime="20220130 13:18:19.919"></status>
+<status status="PASS" starttime="20220130 19:17:32.689" endtime="20220130 19:17:32.690"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.854" endtime="20220130 13:18:19.919"></status>
+<status status="PASS" starttime="20220130 19:17:32.639" endtime="20220130 19:17:32.690"></status>
 </kw>
 <kw name="${i} = 14" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -426,8 +426,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:19.981" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:19.919" endtime="20220130 13:18:19.981"></status>
+<msg timestamp="20220130 19:17:32.740" level="INFO">${AskPrice} = $739,990</msg>
+<status status="PASS" starttime="20220130 19:17:32.690" endtime="20220130 19:17:32.741"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -435,9 +435,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:19.981" endtime="20220130 13:18:19.981"></status>
+<status status="PASS" starttime="20220130 19:17:32.741" endtime="20220130 19:17:32.743"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.919" endtime="20220130 13:18:19.981"></status>
+<status status="PASS" starttime="20220130 19:17:32.690" endtime="20220130 19:17:32.743"></status>
 </kw>
 <kw name="${i} = 15" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -448,8 +448,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.052" level="INFO">${AskPrice} = $599,000</msg>
-<status status="PASS" starttime="20220130 13:18:19.981" endtime="20220130 13:18:20.052"></status>
+<msg timestamp="20220130 19:17:32.840" level="INFO">${AskPrice} = $449,999</msg>
+<status status="PASS" starttime="20220130 19:17:32.744" endtime="20220130 19:17:32.840"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -457,9 +457,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.052" endtime="20220130 13:18:20.052"></status>
+<status status="PASS" starttime="20220130 19:17:32.841" endtime="20220130 19:17:32.842"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:19.981" endtime="20220130 13:18:20.052"></status>
+<status status="PASS" starttime="20220130 19:17:32.743" endtime="20220130 19:17:32.842"></status>
 </kw>
 <kw name="${i} = 16" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -470,8 +470,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.127" level="INFO">${AskPrice} = $609,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.052" endtime="20220130 13:18:20.127"></status>
+<msg timestamp="20220130 19:17:32.906" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:32.842" endtime="20220130 19:17:32.906"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -479,9 +479,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.127" endtime="20220130 13:18:20.127"></status>
+<status status="PASS" starttime="20220130 19:17:32.907" endtime="20220130 19:17:32.908"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.052" endtime="20220130 13:18:20.127"></status>
+<status status="PASS" starttime="20220130 19:17:32.842" endtime="20220130 19:17:32.908"></status>
 </kw>
 <kw name="${i} = 17" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -492,8 +492,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.206" level="INFO">${AskPrice} = $449,999</msg>
-<status status="PASS" starttime="20220130 13:18:20.127" endtime="20220130 13:18:20.206"></status>
+<msg timestamp="20220130 19:17:32.970" level="INFO">${AskPrice} = $599,000</msg>
+<status status="PASS" starttime="20220130 19:17:32.909" endtime="20220130 19:17:32.970"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -501,9 +501,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.206" endtime="20220130 13:18:20.206"></status>
+<status status="PASS" starttime="20220130 19:17:32.970" endtime="20220130 19:17:32.971"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.127" endtime="20220130 13:18:20.206"></status>
+<status status="PASS" starttime="20220130 19:17:32.908" endtime="20220130 19:17:32.971"></status>
 </kw>
 <kw name="${i} = 18" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -514,8 +514,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.300" level="INFO">${AskPrice} = $679,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.206" endtime="20220130 13:18:20.300"></status>
+<msg timestamp="20220130 19:17:33.023" level="INFO">${AskPrice} = $659,990</msg>
+<status status="PASS" starttime="20220130 19:17:32.972" endtime="20220130 19:17:33.023"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -523,9 +523,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.300" endtime="20220130 13:18:20.301"></status>
+<status status="PASS" starttime="20220130 19:17:33.024" endtime="20220130 19:17:33.025"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.206" endtime="20220130 13:18:20.301"></status>
+<status status="PASS" starttime="20220130 19:17:32.972" endtime="20220130 19:17:33.025"></status>
 </kw>
 <kw name="${i} = 19" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -536,8 +536,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.376" level="INFO">${AskPrice} = $699,900</msg>
-<status status="PASS" starttime="20220130 13:18:20.302" endtime="20220130 13:18:20.376"></status>
+<msg timestamp="20220130 19:17:33.072" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:33.026" endtime="20220130 19:17:33.072"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -545,9 +545,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.376" endtime="20220130 13:18:20.376"></status>
+<status status="PASS" starttime="20220130 19:17:33.073" endtime="20220130 19:17:33.074"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.301" endtime="20220130 13:18:20.376"></status>
+<status status="PASS" starttime="20220130 19:17:33.025" endtime="20220130 19:17:33.074"></status>
 </kw>
 <kw name="${i} = 20" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -558,8 +558,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.447" level="INFO">${AskPrice} = $499,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.376" endtime="20220130 13:18:20.449"></status>
+<msg timestamp="20220130 19:17:33.123" level="INFO">${AskPrice} = $609,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.074" endtime="20220130 19:17:33.123"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -567,9 +567,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.449" endtime="20220130 13:18:20.450"></status>
+<status status="PASS" starttime="20220130 19:17:33.124" endtime="20220130 19:17:33.125"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.376" endtime="20220130 13:18:20.450"></status>
+<status status="PASS" starttime="20220130 19:17:33.074" endtime="20220130 19:17:33.125"></status>
 </kw>
 <kw name="${i} = 21" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -580,8 +580,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.518" level="INFO">${AskPrice} = $699,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.451" endtime="20220130 13:18:20.518"></status>
+<msg timestamp="20220130 19:17:33.196" level="INFO">${AskPrice} = $679,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.126" endtime="20220130 19:17:33.196"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -589,9 +589,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.518" endtime="20220130 13:18:20.518"></status>
+<status status="PASS" starttime="20220130 19:17:33.196" endtime="20220130 19:17:33.198"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.450" endtime="20220130 13:18:20.518"></status>
+<status status="PASS" starttime="20220130 19:17:33.125" endtime="20220130 19:17:33.198"></status>
 </kw>
 <kw name="${i} = 22" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -602,8 +602,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.584" level="INFO">${AskPrice} = $688,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.518" endtime="20220130 13:18:20.584"></status>
+<msg timestamp="20220130 19:17:33.265" level="INFO">${AskPrice} = $699,900</msg>
+<status status="PASS" starttime="20220130 19:17:33.200" endtime="20220130 19:17:33.265"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -611,9 +611,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.584" endtime="20220130 13:18:20.584"></status>
+<status status="PASS" starttime="20220130 19:17:33.266" endtime="20220130 19:17:33.267"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.518" endtime="20220130 13:18:20.584"></status>
+<status status="PASS" starttime="20220130 19:17:33.199" endtime="20220130 19:17:33.267"></status>
 </kw>
 <kw name="${i} = 23" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -624,8 +624,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.649" level="INFO">${AskPrice} = $750,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.584" endtime="20220130 13:18:20.649"></status>
+<msg timestamp="20220130 19:17:33.321" level="INFO">${AskPrice} = $499,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.267" endtime="20220130 19:17:33.321"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -633,9 +633,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.649" endtime="20220130 13:18:20.649"></status>
+<status status="PASS" starttime="20220130 19:17:33.321" endtime="20220130 19:17:33.322"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.584" endtime="20220130 13:18:20.649"></status>
+<status status="PASS" starttime="20220130 19:17:33.267" endtime="20220130 19:17:33.322"></status>
 </kw>
 <kw name="${i} = 24" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -646,8 +646,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.730" level="INFO">${AskPrice} = $569,900</msg>
-<status status="PASS" starttime="20220130 13:18:20.649" endtime="20220130 13:18:20.730"></status>
+<msg timestamp="20220130 19:17:33.384" level="INFO">${AskPrice} = $699,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.323" endtime="20220130 19:17:33.384"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -655,9 +655,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.730" endtime="20220130 13:18:20.730"></status>
+<status status="PASS" starttime="20220130 19:17:33.385" endtime="20220130 19:17:33.387"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.649" endtime="20220130 13:18:20.730"></status>
+<status status="PASS" starttime="20220130 19:17:33.323" endtime="20220130 19:17:33.387"></status>
 </kw>
 <kw name="${i} = 25" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -668,8 +668,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.805" level="INFO">${AskPrice} = $559,900</msg>
-<status status="PASS" starttime="20220130 13:18:20.735" endtime="20220130 13:18:20.805"></status>
+<msg timestamp="20220130 19:17:33.445" level="INFO">${AskPrice} = $688,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.389" endtime="20220130 19:17:33.445"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -677,9 +677,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.805" endtime="20220130 13:18:20.806"></status>
+<status status="PASS" starttime="20220130 19:17:33.446" endtime="20220130 19:17:33.446"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.730" endtime="20220130 13:18:20.806"></status>
+<status status="PASS" starttime="20220130 19:17:33.388" endtime="20220130 19:17:33.446"></status>
 </kw>
 <kw name="${i} = 26" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -690,8 +690,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.870" level="INFO">${AskPrice} = $999,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.807" endtime="20220130 13:18:20.870"></status>
+<msg timestamp="20220130 19:17:33.506" level="INFO">${AskPrice} = $750,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.447" endtime="20220130 19:17:33.507"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -699,9 +699,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.870" endtime="20220130 13:18:20.871"></status>
+<status status="PASS" starttime="20220130 19:17:33.507" endtime="20220130 19:17:33.508"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.807" endtime="20220130 13:18:20.871"></status>
+<status status="PASS" starttime="20220130 19:17:33.447" endtime="20220130 19:17:33.508"></status>
 </kw>
 <kw name="${i} = 27" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -712,8 +712,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:20.944" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:20.872" endtime="20220130 13:18:20.945"></status>
+<msg timestamp="20220130 19:17:33.574" level="INFO">${AskPrice} = $569,900</msg>
+<status status="PASS" starttime="20220130 19:17:33.509" endtime="20220130 19:17:33.574"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -721,9 +721,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:20.945" endtime="20220130 13:18:20.945"></status>
+<status status="PASS" starttime="20220130 19:17:33.574" endtime="20220130 19:17:33.575"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.872" endtime="20220130 13:18:20.945"></status>
+<status status="PASS" starttime="20220130 19:17:33.508" endtime="20220130 19:17:33.575"></status>
 </kw>
 <kw name="${i} = 28" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -734,8 +734,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.013" level="INFO">${AskPrice} = $669,000</msg>
-<status status="PASS" starttime="20220130 13:18:20.945" endtime="20220130 13:18:21.014"></status>
+<msg timestamp="20220130 19:17:33.633" level="INFO">${AskPrice} = $559,900</msg>
+<status status="PASS" starttime="20220130 19:17:33.576" endtime="20220130 19:17:33.633"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -743,9 +743,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.014" endtime="20220130 13:18:21.014"></status>
+<status status="PASS" starttime="20220130 19:17:33.633" endtime="20220130 19:17:33.634"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:20.945" endtime="20220130 13:18:21.014"></status>
+<status status="PASS" starttime="20220130 19:17:33.576" endtime="20220130 19:17:33.634"></status>
 </kw>
 <kw name="${i} = 29" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -756,8 +756,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.086" level="INFO">${AskPrice} = $990,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.014" endtime="20220130 13:18:21.086"></status>
+<msg timestamp="20220130 19:17:33.691" level="INFO">${AskPrice} = $999,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.635" endtime="20220130 19:17:33.691"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -765,9 +765,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.086" endtime="20220130 13:18:21.086"></status>
+<status status="PASS" starttime="20220130 19:17:33.692" endtime="20220130 19:17:33.692"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.014" endtime="20220130 13:18:21.086"></status>
+<status status="PASS" starttime="20220130 19:17:33.634" endtime="20220130 19:17:33.693"></status>
 </kw>
 <kw name="${i} = 30" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -778,8 +778,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.160" level="INFO">${AskPrice} = $499,900</msg>
-<status status="PASS" starttime="20220130 13:18:21.086" endtime="20220130 13:18:21.160"></status>
+<msg timestamp="20220130 19:17:33.755" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:33.693" endtime="20220130 19:17:33.755"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -787,9 +787,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.160" endtime="20220130 13:18:21.160"></status>
+<status status="PASS" starttime="20220130 19:17:33.756" endtime="20220130 19:17:33.757"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.086" endtime="20220130 13:18:21.160"></status>
+<status status="PASS" starttime="20220130 19:17:33.693" endtime="20220130 19:17:33.757"></status>
 </kw>
 <kw name="${i} = 31" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -800,8 +800,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.250" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.160" endtime="20220130 13:18:21.251"></status>
+<msg timestamp="20220130 19:17:33.822" level="INFO">${AskPrice} = $669,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.757" endtime="20220130 19:17:33.822"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -809,9 +809,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.251" endtime="20220130 13:18:21.251"></status>
+<status status="PASS" starttime="20220130 19:17:33.823" endtime="20220130 19:17:33.824"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.160" endtime="20220130 13:18:21.251"></status>
+<status status="PASS" starttime="20220130 19:17:33.757" endtime="20220130 19:17:33.824"></status>
 </kw>
 <kw name="${i} = 32" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -822,8 +822,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.354" level="INFO">${AskPrice} = $724,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.251" endtime="20220130 13:18:21.354"></status>
+<msg timestamp="20220130 19:17:33.881" level="INFO">${AskPrice} = $990,000</msg>
+<status status="PASS" starttime="20220130 19:17:33.825" endtime="20220130 19:17:33.881"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -831,9 +831,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.354" endtime="20220130 13:18:21.354"></status>
+<status status="PASS" starttime="20220130 19:17:33.882" endtime="20220130 19:17:33.883"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.251" endtime="20220130 13:18:21.354"></status>
+<status status="PASS" starttime="20220130 19:17:33.825" endtime="20220130 19:17:33.883"></status>
 </kw>
 <kw name="${i} = 33" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -844,8 +844,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.440" level="INFO">${AskPrice} = $439,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.354" endtime="20220130 13:18:21.440"></status>
+<msg timestamp="20220130 19:17:33.952" level="INFO">${AskPrice} = $499,900</msg>
+<status status="PASS" starttime="20220130 19:17:33.885" endtime="20220130 19:17:33.952"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -853,9 +853,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.441" endtime="20220130 13:18:21.442"></status>
+<status status="PASS" starttime="20220130 19:17:33.953" endtime="20220130 19:17:33.955"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.354" endtime="20220130 13:18:21.442"></status>
+<status status="PASS" starttime="20220130 19:17:33.884" endtime="20220130 19:17:33.955"></status>
 </kw>
 <kw name="${i} = 34" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -866,8 +866,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.497" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.442" endtime="20220130 13:18:21.497"></status>
+<msg timestamp="20220130 19:17:34.014" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:33.956" endtime="20220130 19:17:34.015"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -875,9 +875,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.497" endtime="20220130 13:18:21.497"></status>
+<status status="PASS" starttime="20220130 19:17:34.015" endtime="20220130 19:17:34.017"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.442" endtime="20220130 13:18:21.497"></status>
+<status status="PASS" starttime="20220130 19:17:33.955" endtime="20220130 19:17:34.017"></status>
 </kw>
 <kw name="${i} = 35" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -888,8 +888,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.553" level="INFO">${AskPrice} = $1,728,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.497" endtime="20220130 13:18:21.553"></status>
+<msg timestamp="20220130 19:17:34.079" level="INFO">${AskPrice} = $724,000</msg>
+<status status="PASS" starttime="20220130 19:17:34.019" endtime="20220130 19:17:34.079"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -897,9 +897,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.553" endtime="20220130 13:18:21.557"></status>
+<status status="PASS" starttime="20220130 19:17:34.079" endtime="20220130 19:17:34.080"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.497" endtime="20220130 13:18:21.557"></status>
+<status status="PASS" starttime="20220130 19:17:34.018" endtime="20220130 19:17:34.080"></status>
 </kw>
 <kw name="${i} = 36" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -910,8 +910,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.603" level="INFO">${AskPrice} = $549,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.557" endtime="20220130 13:18:21.603"></status>
+<msg timestamp="20220130 19:17:34.157" level="INFO">${AskPrice} = $439,000</msg>
+<status status="PASS" starttime="20220130 19:17:34.081" endtime="20220130 19:17:34.157"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -919,9 +919,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.604" endtime="20220130 13:18:21.604"></status>
+<status status="PASS" starttime="20220130 19:17:34.157" endtime="20220130 19:17:34.159"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.557" endtime="20220130 13:18:21.604"></status>
+<status status="PASS" starttime="20220130 19:17:34.080" endtime="20220130 19:17:34.159"></status>
 </kw>
 <kw name="${i} = 37" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -932,8 +932,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.665" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.604" endtime="20220130 13:18:21.665"></status>
+<msg timestamp="20220130 19:17:34.246" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:34.160" endtime="20220130 19:17:34.246"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -941,9 +941,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.665" endtime="20220130 13:18:21.665"></status>
+<status status="PASS" starttime="20220130 19:17:34.247" endtime="20220130 19:17:34.248"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.604" endtime="20220130 13:18:21.665"></status>
+<status status="PASS" starttime="20220130 19:17:34.159" endtime="20220130 19:17:34.248"></status>
 </kw>
 <kw name="${i} = 38" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -954,8 +954,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.722" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.665" endtime="20220130 13:18:21.723"></status>
+<msg timestamp="20220130 19:17:34.317" level="INFO">${AskPrice} = $1,728,000</msg>
+<status status="PASS" starttime="20220130 19:17:34.249" endtime="20220130 19:17:34.317"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -963,9 +963,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.723" endtime="20220130 13:18:21.723"></status>
+<status status="PASS" starttime="20220130 19:17:34.318" endtime="20220130 19:17:34.320"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.665" endtime="20220130 13:18:21.723"></status>
+<status status="PASS" starttime="20220130 19:17:34.248" endtime="20220130 19:17:34.320"></status>
 </kw>
 <kw name="${i} = 39" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -976,8 +976,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.781" level="INFO">${AskPrice} = $788,800</msg>
-<status status="PASS" starttime="20220130 13:18:21.723" endtime="20220130 13:18:21.781"></status>
+<msg timestamp="20220130 19:17:34.380" level="INFO">${AskPrice} = $549,999</msg>
+<status status="PASS" starttime="20220130 19:17:34.321" endtime="20220130 19:17:34.380"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -985,9 +985,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.781" endtime="20220130 13:18:21.781"></status>
+<status status="PASS" starttime="20220130 19:17:34.381" endtime="20220130 19:17:34.382"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.723" endtime="20220130 13:18:21.781"></status>
+<status status="PASS" starttime="20220130 19:17:34.320" endtime="20220130 19:17:34.382"></status>
 </kw>
 <kw name="${i} = 40" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -998,8 +998,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.836" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.781" endtime="20220130 13:18:21.836"></status>
+<msg timestamp="20220130 19:17:34.443" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:34.383" endtime="20220130 19:17:34.443"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1007,9 +1007,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.836" endtime="20220130 13:18:21.837"></status>
+<status status="PASS" starttime="20220130 19:17:34.444" endtime="20220130 19:17:34.444"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.781" endtime="20220130 13:18:21.837"></status>
+<status status="PASS" starttime="20220130 19:17:34.382" endtime="20220130 19:17:34.444"></status>
 </kw>
 <kw name="${i} = 41" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1020,8 +1020,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.887" level="INFO">${AskPrice} = $1,725,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.837" endtime="20220130 13:18:21.887"></status>
+<msg timestamp="20220130 19:17:34.507" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:34.445" endtime="20220130 19:17:34.507"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1029,9 +1029,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.887" endtime="20220130 13:18:21.887"></status>
+<status status="PASS" starttime="20220130 19:17:34.507" endtime="20220130 19:17:34.508"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.837" endtime="20220130 13:18:21.887"></status>
+<status status="PASS" starttime="20220130 19:17:34.445" endtime="20220130 19:17:34.508"></status>
 </kw>
 <kw name="${i} = 42" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1042,8 +1042,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.941" level="INFO">${AskPrice} = $599,999</msg>
-<status status="PASS" starttime="20220130 13:18:21.887" endtime="20220130 13:18:21.941"></status>
+<msg timestamp="20220130 19:17:34.565" level="INFO">${AskPrice} = $788,800</msg>
+<status status="PASS" starttime="20220130 19:17:34.509" endtime="20220130 19:17:34.565"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1051,9 +1051,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.942" endtime="20220130 13:18:21.942"></status>
+<status status="PASS" starttime="20220130 19:17:34.566" endtime="20220130 19:17:34.568"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.887" endtime="20220130 13:18:21.942"></status>
+<status status="PASS" starttime="20220130 19:17:34.509" endtime="20220130 19:17:34.568"></status>
 </kw>
 <kw name="${i} = 43" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1064,8 +1064,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:21.988" level="INFO">${AskPrice} = $738,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.942" endtime="20220130 13:18:21.988"></status>
+<msg timestamp="20220130 19:17:34.638" level="INFO">${AskPrice} = $999,999</msg>
+<status status="PASS" starttime="20220130 19:17:34.569" endtime="20220130 19:17:34.638"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1073,9 +1073,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:21.988" endtime="20220130 13:18:21.988"></status>
+<status status="PASS" starttime="20220130 19:17:34.639" endtime="20220130 19:17:34.640"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.942" endtime="20220130 13:18:21.988"></status>
+<status status="PASS" starttime="20220130 19:17:34.568" endtime="20220130 19:17:34.640"></status>
 </kw>
 <kw name="${i} = 44" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1086,8 +1086,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:22.040" level="INFO">${AskPrice} = $555,000</msg>
-<status status="PASS" starttime="20220130 13:18:21.988" endtime="20220130 13:18:22.040"></status>
+<msg timestamp="20220130 19:17:34.701" level="INFO">${AskPrice} = $1,725,000</msg>
+<status status="PASS" starttime="20220130 19:17:34.641" endtime="20220130 19:17:34.701"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1095,9 +1095,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.040" endtime="20220130 13:18:22.040"></status>
+<status status="PASS" starttime="20220130 19:17:34.701" endtime="20220130 19:17:34.703"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:21.988" endtime="20220130 13:18:22.040"></status>
+<status status="PASS" starttime="20220130 19:17:34.640" endtime="20220130 19:17:34.703"></status>
 </kw>
 <kw name="${i} = 45" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1108,8 +1108,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:22.096" level="INFO">${AskPrice} = $999,000</msg>
-<status status="PASS" starttime="20220130 13:18:22.040" endtime="20220130 13:18:22.096"></status>
+<msg timestamp="20220130 19:17:34.766" level="INFO">${AskPrice} = $599,999</msg>
+<status status="PASS" starttime="20220130 19:17:34.704" endtime="20220130 19:17:34.766"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1117,9 +1117,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.096" endtime="20220130 13:18:22.096"></status>
+<status status="PASS" starttime="20220130 19:17:34.767" endtime="20220130 19:17:34.769"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.040" endtime="20220130 13:18:22.096"></status>
+<status status="PASS" starttime="20220130 19:17:34.703" endtime="20220130 19:17:34.769"></status>
 </kw>
 <kw name="${i} = 46" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1130,8 +1130,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:22.146" level="INFO">${AskPrice} = $1,800,000</msg>
-<status status="PASS" starttime="20220130 13:18:22.096" endtime="20220130 13:18:22.146"></status>
+<msg timestamp="20220130 19:17:34.836" level="INFO">${AskPrice} = $738,000</msg>
+<status status="PASS" starttime="20220130 19:17:34.770" endtime="20220130 19:17:34.836"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1139,9 +1139,9 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.146" endtime="20220130 13:18:22.146"></status>
+<status status="PASS" starttime="20220130 19:17:34.837" endtime="20220130 19:17:34.838"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.096" endtime="20220130 13:18:22.146"></status>
+<status status="PASS" starttime="20220130 19:17:34.769" endtime="20220130 19:17:34.838"></status>
 </kw>
 <kw name="${i} = 47" type="foritem">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -1152,8 +1152,8 @@
 <assign>
 <var>${AskPrice}</var>
 </assign>
-<msg timestamp="20220130 13:18:22.203" level="INFO">${AskPrice} = $999,999</msg>
-<status status="PASS" starttime="20220130 13:18:22.146" endtime="20220130 13:18:22.203"></status>
+<msg timestamp="20220130 19:17:34.894" level="INFO">${AskPrice} = $555,000</msg>
+<status status="PASS" starttime="20220130 19:17:34.839" endtime="20220130 19:17:34.894"></status>
 </kw>
 <kw name="Append To List" library="Collections">
 <doc>Adds ``values`` to the end of ``list``.</doc>
@@ -1161,69 +1161,49 @@
 <arg>${houses}</arg>
 <arg>${AskPrice}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.204" endtime="20220130 13:18:22.204"></status>
+<status status="PASS" starttime="20220130 19:17:34.894" endtime="20220130 19:17:34.895"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.146" endtime="20220130 13:18:22.204"></status>
+<status status="PASS" starttime="20220130 19:17:34.839" endtime="20220130 19:17:34.895"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:16.319" endtime="20220130 13:18:22.204"></status>
+<status status="PASS" starttime="20220130 19:17:28.839" endtime="20220130 19:17:34.895"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Property Prices:</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.204" endtime="20220130 13:18:22.206"></status>
+<status status="PASS" starttime="20220130 19:17:34.896" endtime="20220130 19:17:34.897"></status>
 </kw>
 <kw name="${Element} IN [ @{houses} ]" type="for">
-<kw name="${Element} = $1,174,900" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.206" endtime="20220130 13:18:22.208"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.206" endtime="20220130 13:18:22.208"></status>
-</kw>
-<kw name="${Element} = $1,089,900" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.208" endtime="20220130 13:18:22.209"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.208" endtime="20220130 13:18:22.209"></status>
-</kw>
-<kw name="${Element} = $649,900" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.209" endtime="20220130 13:18:22.210"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.209" endtime="20220130 13:18:22.210"></status>
-</kw>
 <kw name="${Element} = $998,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.210" endtime="20220130 13:18:22.211"></status>
+<status status="PASS" starttime="20220130 19:17:34.899" endtime="20220130 19:17:34.901"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.210" endtime="20220130 13:18:22.212"></status>
+<status status="PASS" starttime="20220130 19:17:34.898" endtime="20220130 19:17:34.902"></status>
 </kw>
-<kw name="${Element} = $599,900" type="foritem">
+<kw name="${Element} = $549,800" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.212" endtime="20220130 13:18:22.213"></status>
+<status status="PASS" starttime="20220130 19:17:34.904" endtime="20220130 19:17:34.909"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.212" endtime="20220130 13:18:22.214"></status>
+<status status="PASS" starttime="20220130 19:17:34.902" endtime="20220130 19:17:34.909"></status>
+</kw>
+<kw name="${Element} = $610,000" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.910" endtime="20220130 19:17:34.911"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.909" endtime="20220130 19:17:34.911"></status>
 </kw>
 <kw name="${Element} = $899,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1231,9 +1211,49 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.214" endtime="20220130 13:18:22.215"></status>
+<status status="PASS" starttime="20220130 19:17:34.912" endtime="20220130 19:17:34.913"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.214" endtime="20220130 13:18:22.215"></status>
+<status status="PASS" starttime="20220130 19:17:34.911" endtime="20220130 19:17:34.914"></status>
+</kw>
+<kw name="${Element} = $1,174,900" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.914" endtime="20220130 19:17:34.933"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.914" endtime="20220130 19:17:34.933"></status>
+</kw>
+<kw name="${Element} = $1,089,900" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.934" endtime="20220130 19:17:34.937"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.934" endtime="20220130 19:17:34.937"></status>
+</kw>
+<kw name="${Element} = $649,900" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.937" endtime="20220130 19:17:34.939"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.937" endtime="20220130 19:17:34.939"></status>
+</kw>
+<kw name="${Element} = $599,900" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.940" endtime="20220130 19:17:34.941"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.939" endtime="20220130 19:17:34.942"></status>
 </kw>
 <kw name="${Element} = $579,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1241,9 +1261,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.215" endtime="20220130 13:18:22.217"></status>
+<status status="PASS" starttime="20220130 19:17:34.942" endtime="20220130 19:17:34.944"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.215" endtime="20220130 13:18:22.217"></status>
+<status status="PASS" starttime="20220130 19:17:34.942" endtime="20220130 19:17:34.944"></status>
 </kw>
 <kw name="${Element} = $849,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1251,9 +1271,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.217" endtime="20220130 13:18:22.218"></status>
+<status status="PASS" starttime="20220130 19:17:34.944" endtime="20220130 19:17:34.946"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.217" endtime="20220130 13:18:22.219"></status>
+<status status="PASS" starttime="20220130 19:17:34.944" endtime="20220130 19:17:34.946"></status>
 </kw>
 <kw name="${Element} = $816,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1261,9 +1281,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.219" endtime="20220130 13:18:22.220"></status>
+<status status="PASS" starttime="20220130 19:17:34.946" endtime="20220130 19:17:34.948"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.219" endtime="20220130 13:18:22.221"></status>
+<status status="PASS" starttime="20220130 19:17:34.946" endtime="20220130 19:17:34.948"></status>
 </kw>
 <kw name="${Element} = $624,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1271,9 +1291,19 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.221" endtime="20220130 13:18:22.222"></status>
+<status status="PASS" starttime="20220130 19:17:34.949" endtime="20220130 19:17:34.951"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.221" endtime="20220130 13:18:22.222"></status>
+<status status="PASS" starttime="20220130 19:17:34.948" endtime="20220130 19:17:34.951"></status>
+</kw>
+<kw name="${Element} = $1,249,500" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.952" endtime="20220130 19:17:34.953"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.951" endtime="20220130 19:17:34.953"></status>
 </kw>
 <kw name="${Element} = $739,990" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1281,59 +1311,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.222" endtime="20220130 13:18:22.224"></status>
+<status status="PASS" starttime="20220130 19:17:34.954" endtime="20220130 19:17:34.955"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.222" endtime="20220130 13:18:22.224"></status>
-</kw>
-<kw name="${Element} = $659,990" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.224" endtime="20220130 13:18:22.225"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.224" endtime="20220130 13:18:22.225"></status>
-</kw>
-<kw name="${Element} = $999,999" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.225" endtime="20220130 13:18:22.225"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.225" endtime="20220130 13:18:22.227"></status>
-</kw>
-<kw name="${Element} = $999,999" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.227" endtime="20220130 13:18:22.228"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.227" endtime="20220130 13:18:22.228"></status>
-</kw>
-<kw name="${Element} = $599,000" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.229" endtime="20220130 13:18:22.230"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.228" endtime="20220130 13:18:22.230"></status>
-</kw>
-<kw name="${Element} = $609,000" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.230" endtime="20220130 13:18:22.231"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.230" endtime="20220130 13:18:22.231"></status>
+<status status="PASS" starttime="20220130 19:17:34.953" endtime="20220130 19:17:34.955"></status>
 </kw>
 <kw name="${Element} = $449,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1341,9 +1321,59 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.231" endtime="20220130 13:18:22.233"></status>
+<status status="PASS" starttime="20220130 19:17:34.956" endtime="20220130 19:17:34.957"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.231" endtime="20220130 13:18:22.233"></status>
+<status status="PASS" starttime="20220130 19:17:34.955" endtime="20220130 19:17:34.957"></status>
+</kw>
+<kw name="${Element} = $999,999" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.958" endtime="20220130 19:17:34.959"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.957" endtime="20220130 19:17:34.959"></status>
+</kw>
+<kw name="${Element} = $599,000" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.959" endtime="20220130 19:17:34.960"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.959" endtime="20220130 19:17:34.960"></status>
+</kw>
+<kw name="${Element} = $659,990" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.961" endtime="20220130 19:17:34.962"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.960" endtime="20220130 19:17:34.962"></status>
+</kw>
+<kw name="${Element} = $999,999" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.962" endtime="20220130 19:17:34.963"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.962" endtime="20220130 19:17:34.963"></status>
+</kw>
+<kw name="${Element} = $609,000" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:34.964" endtime="20220130 19:17:34.966"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:34.963" endtime="20220130 19:17:34.966"></status>
 </kw>
 <kw name="${Element} = $679,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1351,9 +1381,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.233" endtime="20220130 13:18:22.234"></status>
+<status status="PASS" starttime="20220130 19:17:34.967" endtime="20220130 19:17:34.968"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.233" endtime="20220130 13:18:22.234"></status>
+<status status="PASS" starttime="20220130 19:17:34.967" endtime="20220130 19:17:34.969"></status>
 </kw>
 <kw name="${Element} = $699,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1361,9 +1391,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.234" endtime="20220130 13:18:22.234"></status>
+<status status="PASS" starttime="20220130 19:17:34.970" endtime="20220130 19:17:34.972"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.234" endtime="20220130 13:18:22.234"></status>
+<status status="PASS" starttime="20220130 19:17:34.970" endtime="20220130 19:17:34.972"></status>
 </kw>
 <kw name="${Element} = $499,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1371,9 +1401,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.234" endtime="20220130 13:18:22.236"></status>
+<status status="PASS" starttime="20220130 19:17:34.973" endtime="20220130 19:17:34.975"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.234" endtime="20220130 13:18:22.236"></status>
+<status status="PASS" starttime="20220130 19:17:34.973" endtime="20220130 19:17:34.975"></status>
 </kw>
 <kw name="${Element} = $699,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1381,9 +1411,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.236" endtime="20220130 13:18:22.237"></status>
+<status status="PASS" starttime="20220130 19:17:34.976" endtime="20220130 19:17:34.978"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.236" endtime="20220130 13:18:22.237"></status>
+<status status="PASS" starttime="20220130 19:17:34.975" endtime="20220130 19:17:34.978"></status>
 </kw>
 <kw name="${Element} = $688,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1391,9 +1421,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.237" endtime="20220130 13:18:22.238"></status>
+<status status="PASS" starttime="20220130 19:17:34.979" endtime="20220130 19:17:34.980"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.237" endtime="20220130 13:18:22.238"></status>
+<status status="PASS" starttime="20220130 19:17:34.978" endtime="20220130 19:17:34.980"></status>
 </kw>
 <kw name="${Element} = $750,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1401,9 +1431,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.238" endtime="20220130 13:18:22.239"></status>
+<status status="PASS" starttime="20220130 19:17:34.981" endtime="20220130 19:17:34.986"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.238" endtime="20220130 13:18:22.239"></status>
+<status status="PASS" starttime="20220130 19:17:34.980" endtime="20220130 19:17:34.986"></status>
 </kw>
 <kw name="${Element} = $569,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1411,9 +1441,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.239" endtime="20220130 13:18:22.240"></status>
+<status status="PASS" starttime="20220130 19:17:34.987" endtime="20220130 19:17:34.988"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.239" endtime="20220130 13:18:22.240"></status>
+<status status="PASS" starttime="20220130 19:17:34.986" endtime="20220130 19:17:34.988"></status>
 </kw>
 <kw name="${Element} = $559,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1421,9 +1451,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.240" endtime="20220130 13:18:22.240"></status>
+<status status="PASS" starttime="20220130 19:17:34.989" endtime="20220130 19:17:34.990"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.240" endtime="20220130 13:18:22.241"></status>
+<status status="PASS" starttime="20220130 19:17:34.988" endtime="20220130 19:17:34.991"></status>
 </kw>
 <kw name="${Element} = $999,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1431,9 +1461,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.241" endtime="20220130 13:18:22.243"></status>
+<status status="PASS" starttime="20220130 19:17:34.991" endtime="20220130 19:17:34.993"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.241" endtime="20220130 13:18:22.243"></status>
+<status status="PASS" starttime="20220130 19:17:34.991" endtime="20220130 19:17:34.993"></status>
 </kw>
 <kw name="${Element} = $999,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1441,9 +1471,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.244" endtime="20220130 13:18:22.245"></status>
+<status status="PASS" starttime="20220130 19:17:34.994" endtime="20220130 19:17:34.999"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.243" endtime="20220130 13:18:22.245"></status>
+<status status="PASS" starttime="20220130 19:17:34.993" endtime="20220130 19:17:34.999"></status>
 </kw>
 <kw name="${Element} = $669,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1451,9 +1481,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.245" endtime="20220130 13:18:22.248"></status>
+<status status="PASS" starttime="20220130 19:17:35.000" endtime="20220130 19:17:35.003"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.245" endtime="20220130 13:18:22.248"></status>
+<status status="PASS" starttime="20220130 19:17:34.999" endtime="20220130 19:17:35.003"></status>
 </kw>
 <kw name="${Element} = $990,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1461,9 +1491,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.248" endtime="20220130 13:18:22.250"></status>
+<status status="PASS" starttime="20220130 19:17:35.004" endtime="20220130 19:17:35.005"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.248" endtime="20220130 13:18:22.250"></status>
+<status status="PASS" starttime="20220130 19:17:35.003" endtime="20220130 19:17:35.005"></status>
 </kw>
 <kw name="${Element} = $499,900" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1471,9 +1501,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.251" endtime="20220130 13:18:22.253"></status>
+<status status="PASS" starttime="20220130 19:17:35.006" endtime="20220130 19:17:35.007"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.250" endtime="20220130 13:18:22.253"></status>
+<status status="PASS" starttime="20220130 19:17:35.006" endtime="20220130 19:17:35.008"></status>
 </kw>
 <kw name="${Element} = $999,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1481,9 +1511,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.254" endtime="20220130 13:18:22.257"></status>
+<status status="PASS" starttime="20220130 19:17:35.009" endtime="20220130 19:17:35.011"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.253" endtime="20220130 13:18:22.257"></status>
+<status status="PASS" starttime="20220130 19:17:35.008" endtime="20220130 19:17:35.011"></status>
 </kw>
 <kw name="${Element} = $724,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1491,9 +1521,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.258" endtime="20220130 13:18:22.260"></status>
+<status status="PASS" starttime="20220130 19:17:35.015" endtime="20220130 19:17:35.019"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.257" endtime="20220130 13:18:22.260"></status>
+<status status="PASS" starttime="20220130 19:17:35.013" endtime="20220130 19:17:35.019"></status>
 </kw>
 <kw name="${Element} = $439,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1501,9 +1531,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.261" endtime="20220130 13:18:22.262"></status>
+<status status="PASS" starttime="20220130 19:17:35.020" endtime="20220130 19:17:35.021"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.260" endtime="20220130 13:18:22.262"></status>
+<status status="PASS" starttime="20220130 19:17:35.019" endtime="20220130 19:17:35.021"></status>
 </kw>
 <kw name="${Element} = $999,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1511,9 +1541,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.263" endtime="20220130 13:18:22.263"></status>
+<status status="PASS" starttime="20220130 19:17:35.021" endtime="20220130 19:17:35.022"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.262" endtime="20220130 13:18:22.263"></status>
+<status status="PASS" starttime="20220130 19:17:35.021" endtime="20220130 19:17:35.023"></status>
 </kw>
 <kw name="${Element} = $1,728,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1521,9 +1551,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.263" endtime="20220130 13:18:22.270"></status>
+<status status="PASS" starttime="20220130 19:17:35.023" endtime="20220130 19:17:35.023"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.263" endtime="20220130 13:18:22.271"></status>
+<status status="PASS" starttime="20220130 19:17:35.023" endtime="20220130 19:17:35.024"></status>
 </kw>
 <kw name="${Element} = $549,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1531,19 +1561,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.271" endtime="20220130 13:18:22.272"></status>
+<status status="PASS" starttime="20220130 19:17:35.024" endtime="20220130 19:17:35.026"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.271" endtime="20220130 13:18:22.272"></status>
-</kw>
-<kw name="${Element} = $999,999" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.272" endtime="20220130 13:18:22.273"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.272" endtime="20220130 13:18:22.273"></status>
+<status status="PASS" starttime="20220130 19:17:35.024" endtime="20220130 19:17:35.026"></status>
 </kw>
 <kw name="${Element} = $999,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1551,9 +1571,19 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.273" endtime="20220130 13:18:22.275"></status>
+<status status="PASS" starttime="20220130 19:17:35.026" endtime="20220130 19:17:35.057"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.273" endtime="20220130 13:18:22.275"></status>
+<status status="PASS" starttime="20220130 19:17:35.026" endtime="20220130 19:17:35.057"></status>
+</kw>
+<kw name="${Element} = $999,999" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Element}</arg>
+</arguments>
+<status status="PASS" starttime="20220130 19:17:35.058" endtime="20220130 19:17:35.060"></status>
+</kw>
+<status status="PASS" starttime="20220130 19:17:35.058" endtime="20220130 19:17:35.060"></status>
 </kw>
 <kw name="${Element} = $788,800" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1561,9 +1591,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.275" endtime="20220130 13:18:22.276"></status>
+<status status="PASS" starttime="20220130 19:17:35.061" endtime="20220130 19:17:35.064"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.275" endtime="20220130 13:18:22.276"></status>
+<status status="PASS" starttime="20220130 19:17:35.060" endtime="20220130 19:17:35.064"></status>
 </kw>
 <kw name="${Element} = $999,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1571,9 +1601,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.276" endtime="20220130 13:18:22.276"></status>
+<status status="PASS" starttime="20220130 19:17:35.065" endtime="20220130 19:17:35.067"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.276" endtime="20220130 13:18:22.276"></status>
+<status status="PASS" starttime="20220130 19:17:35.065" endtime="20220130 19:17:35.067"></status>
 </kw>
 <kw name="${Element} = $1,725,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1581,9 +1611,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.276" endtime="20220130 13:18:22.278"></status>
+<status status="PASS" starttime="20220130 19:17:35.068" endtime="20220130 19:17:35.070"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.276" endtime="20220130 13:18:22.278"></status>
+<status status="PASS" starttime="20220130 19:17:35.067" endtime="20220130 19:17:35.070"></status>
 </kw>
 <kw name="${Element} = $599,999" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1591,9 +1621,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.279" endtime="20220130 13:18:22.282"></status>
+<status status="PASS" starttime="20220130 19:17:35.070" endtime="20220130 19:17:35.072"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.278" endtime="20220130 13:18:22.282"></status>
+<status status="PASS" starttime="20220130 19:17:35.070" endtime="20220130 19:17:35.072"></status>
 </kw>
 <kw name="${Element} = $738,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1601,9 +1631,9 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.283" endtime="20220130 13:18:22.284"></status>
+<status status="PASS" starttime="20220130 19:17:35.072" endtime="20220130 19:17:35.075"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.282" endtime="20220130 13:18:22.284"></status>
+<status status="PASS" starttime="20220130 19:17:35.072" endtime="20220130 19:17:35.075"></status>
 </kw>
 <kw name="${Element} = $555,000" type="foritem">
 <kw name="Log To Console" library="BuiltIn">
@@ -1611,53 +1641,23 @@
 <arguments>
 <arg>${Element}</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.285" endtime="20220130 13:18:22.285"></status>
+<status status="PASS" starttime="20220130 19:17:35.077" endtime="20220130 19:17:35.080"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:22.284" endtime="20220130 13:18:22.287"></status>
+<status status="PASS" starttime="20220130 19:17:35.076" endtime="20220130 19:17:35.081"></status>
 </kw>
-<kw name="${Element} = $999,000" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.287" endtime="20220130 13:18:22.289"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.287" endtime="20220130 13:18:22.290"></status>
-</kw>
-<kw name="${Element} = $1,800,000" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.290" endtime="20220130 13:18:22.291"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.290" endtime="20220130 13:18:22.291"></status>
-</kw>
-<kw name="${Element} = $999,999" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Element}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:22.291" endtime="20220130 13:18:22.293"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.291" endtime="20220130 13:18:22.293"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.206" endtime="20220130 13:18:22.293"></status>
+<status status="PASS" starttime="20220130 19:17:34.897" endtime="20220130 19:17:35.081"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${SelectedProperty}</arg>
 </arguments>
-<msg timestamp="20220130 13:18:22.293" level="INFO">Clicking element 'xpath=//div[@id='listRow']/div[4]/div/a/div[1]'.</msg>
-<status status="PASS" starttime="20220130 13:18:22.293" endtime="20220130 13:18:22.929"></status>
+<msg timestamp="20220130 19:17:35.082" level="INFO">Clicking element 'xpath=//div[@id='listRow']/div[5]/div/a/div[1]'.</msg>
+<status status="PASS" starttime="20220130 19:17:35.081" endtime="20220130 19:17:35.876"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:11.703" endtime="20220130 13:18:22.930"></status>
+<status status="PASS" starttime="20220130 19:17:23.526" endtime="20220130 19:17:35.877"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:11.702" endtime="20220130 13:18:22.930"></status>
+<status status="PASS" starttime="20220130 19:17:23.525" endtime="20220130 19:17:35.877"></status>
 </kw>
 <kw name="Then PropertyDetails Should be Shown" library="FrontOfficeApp">
 <kw name="SelectedProperty Amenities should be shown" library="PropertyDetails">
@@ -1667,7 +1667,7 @@
 <arg>NEW</arg>
 <arg>timeout=5</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:22.954" endtime="20220130 13:18:23.003"></status>
+<status status="PASS" starttime="20220130 19:17:35.884" endtime="20220130 19:17:35.942"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
@@ -1675,7 +1675,7 @@
 <arg>${PropertyDetailsLdPg}</arg>
 <arg>timeout=10</arg>
 </arguments>
-<status status="PASS" starttime="20220130 13:18:23.004" endtime="20220130 13:18:23.272"></status>
+<status status="PASS" starttime="20220130 19:17:35.943" endtime="20220130 19:17:37.669"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1685,311 +1685,47 @@
 <assign>
 <var>${PropertyName}</var>
 </assign>
-<msg timestamp="20220130 13:18:24.204" level="INFO">${PropertyName} = 2809 - 197 Yonge St</msg>
-<status status="PASS" starttime="20220130 13:18:23.272" endtime="20220130 13:18:24.204"></status>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220130 19:17:40.602" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220130 19:17:39.901" endtime="20220130 19:17:40.603"></status>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Property Name: ${PropertyName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:24.204" endtime="20220130 13:18:24.208"></status>
+<msg timestamp="20220130 19:17:40.736" level="FAIL">StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.99)
+</msg>
+<status status="FAIL" starttime="20220130 19:17:37.670" endtime="20220130 19:17:40.736"></status>
 </kw>
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>${PropSize}</arg>
-</arguments>
-<assign>
-<var>${PropertySize}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.129" level="INFO">${PropertySize} = 800-899 sqft</msg>
-<status status="PASS" starttime="20220130 13:18:24.208" endtime="20220130 13:18:26.129"></status>
+<status status="FAIL" starttime="20220130 19:17:35.881" endtime="20220130 19:17:40.737"></status>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Property Size: ${PropertySize}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.129" endtime="20220130 13:18:26.129"></status>
-</kw>
-<kw name="Get Element Count" library="SeleniumLibrary">
-<doc>Returns the number of elements matching ``locator``.</doc>
-<arguments>
-<arg>${ListofAmenities}</arg>
-</arguments>
-<assign>
-<var>${AmenitiesCount}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.254" level="INFO">${AmenitiesCount} = 8</msg>
-<status status="PASS" starttime="20220130 13:18:26.129" endtime="20220130 13:18:26.254"></status>
-</kw>
-<kw name="${j} IN RANGE [ 1 | ${AmenitiesCount} ]" type="for">
-<kw name="${j} = 1" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.316" level="INFO">${AmenityName} = Concierge</msg>
-<status status="PASS" starttime="20220130 13:18:26.255" endtime="20220130 13:18:26.316"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.316" endtime="20220130 13:18:26.316"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.254" endtime="20220130 13:18:26.316"></status>
-</kw>
-<kw name="${j} = 2" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.377" level="INFO">${AmenityName} = Gym</msg>
-<status status="PASS" starttime="20220130 13:18:26.316" endtime="20220130 13:18:26.377"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.377" endtime="20220130 13:18:26.377"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.316" endtime="20220130 13:18:26.377"></status>
-</kw>
-<kw name="${j} = 3" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.431" level="INFO">${AmenityName} = Party Room</msg>
-<status status="PASS" starttime="20220130 13:18:26.377" endtime="20220130 13:18:26.432"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.432" endtime="20220130 13:18:26.433"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.377" endtime="20220130 13:18:26.433"></status>
-</kw>
-<kw name="${j} = 4" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.516" level="INFO">${AmenityName} = Security Guard</msg>
-<status status="PASS" starttime="20220130 13:18:26.434" endtime="20220130 13:18:26.516"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.516" endtime="20220130 13:18:26.516"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.434" endtime="20220130 13:18:26.516"></status>
-</kw>
-<kw name="${j} = 5" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.571" level="INFO">${AmenityName} = Security System</msg>
-<status status="PASS" starttime="20220130 13:18:26.516" endtime="20220130 13:18:26.571"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.572" endtime="20220130 13:18:26.572"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.516" endtime="20220130 13:18:26.572"></status>
-</kw>
-<kw name="${j} = 6" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.624" level="INFO">${AmenityName} = Indoor Pool</msg>
-<status status="PASS" starttime="20220130 13:18:26.572" endtime="20220130 13:18:26.624"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.624" endtime="20220130 13:18:26.624"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.572" endtime="20220130 13:18:26.624"></status>
-</kw>
-<kw name="${j} = 7" type="foritem">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]</arg>
-</arguments>
-<assign>
-<var>${AmenityName}</var>
-</assign>
-<msg timestamp="20220130 13:18:26.679" level="INFO">${AmenityName} = BBQ Permitted</msg>
-<status status="PASS" starttime="20220130 13:18:26.624" endtime="20220130 13:18:26.679"></status>
-</kw>
-<kw name="Append To List" library="Collections">
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<arguments>
-<arg>${Amenity}</arg>
-<arg>${AmenityName}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.680" endtime="20220130 13:18:26.680"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.624" endtime="20220130 13:18:26.680"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.254" endtime="20220130 13:18:26.680"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Property Amenities Include:</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.680" endtime="20220130 13:18:26.680"></status>
-</kw>
-<kw name="${Amen} IN [ @{Amenity} ]" type="for">
-<kw name="${Amen} = Concierge" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.680" endtime="20220130 13:18:26.684"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.680" endtime="20220130 13:18:26.684"></status>
-</kw>
-<kw name="${Amen} = Gym" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.684" endtime="20220130 13:18:26.685"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.684" endtime="20220130 13:18:26.685"></status>
-</kw>
-<kw name="${Amen} = Party Room" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.685" endtime="20220130 13:18:26.686"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.685" endtime="20220130 13:18:26.687"></status>
-</kw>
-<kw name="${Amen} = Security Guard" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.687" endtime="20220130 13:18:26.688"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.687" endtime="20220130 13:18:26.688"></status>
-</kw>
-<kw name="${Amen} = Security System" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.689" endtime="20220130 13:18:26.690"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.689" endtime="20220130 13:18:26.690"></status>
-</kw>
-<kw name="${Amen} = Indoor Pool" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.690" endtime="20220130 13:18:26.690"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.690" endtime="20220130 13:18:26.690"></status>
-</kw>
-<kw name="${Amen} = BBQ Permitted" type="foritem">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Amen}</arg>
-</arguments>
-<status status="PASS" starttime="20220130 13:18:26.690" endtime="20220130 13:18:26.690"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.690" endtime="20220130 13:18:26.690"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:26.680" endtime="20220130 13:18:26.690"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.952" endtime="20220130 13:18:26.690"></status>
-</kw>
-<status status="PASS" starttime="20220130 13:18:22.951" endtime="20220130 13:18:26.690"></status>
+<status status="FAIL" starttime="20220130 19:17:35.879" endtime="20220130 19:17:40.737"></status>
 </kw>
 <kw name="End Web Test" library="CommonWeb" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220130 13:18:26.698" endtime="20220130 13:18:29.271"></status>
+<status status="PASS" starttime="20220130 19:17:40.743" endtime="20220130 19:17:43.701"></status>
 </kw>
-<status status="PASS" starttime="20220130 13:18:26.698" endtime="20220130 13:18:29.272"></status>
+<status status="PASS" starttime="20220130 19:17:40.742" endtime="20220130 19:17:43.702"></status>
 </kw>
 <tags>
 <tag>Regression</tag>
 </tags>
-<status status="PASS" starttime="20220130 13:17:49.143" endtime="20220130 13:18:29.274" critical="yes"></status>
+<status status="FAIL" starttime="20220130 19:16:56.738" endtime="20220130 19:17:43.703" critical="yes">StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.99)
+</status>
 </test>
 <doc>Test Suite For Condos.ca</doc>
-<status status="PASS" starttime="20220130 13:17:48.688" endtime="20220130 13:18:29.278"></status>
+<status status="FAIL" starttime="20220130 19:16:55.984" endtime="20220130 19:17:43.708"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">Regression</stat>
+<stat pass="0" fail="1">Regression</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="UIAutomation">UIAutomation</stat>
+<stat pass="0" fail="1" id="s1" name="UIAutomation">UIAutomation</stat>
 </suite>
 </statistics>
 <errors>
