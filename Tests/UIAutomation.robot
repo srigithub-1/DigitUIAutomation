@@ -10,3 +10,6 @@ Test Teardown   End Web Test
 TC01_CondosApplicationAutomation
     [Tags]    Regression
     When I Navigate to the "Condos.ca" Page
+    Then I Wait for the Search Box on "Condos.ca" to be enabled and search for Toronto Properties
+    And Properties Page Should Be Displayed
+    Then PropertyDetails Should be Shown
