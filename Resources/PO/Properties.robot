@@ -8,7 +8,7 @@ Library     Collections
 ${Google_Maps}          xpath=//button[text()='Close Map']
 ${PropertyListPage}     xpath=//div[text()='toronto condos for Sale']
 ${PropertyCount}        xpath=//div[@id='listRow']/div
-${SelectedProperty}     xpath=//div[@id='listRow']/div[4]/div/a/div[1]
+${SelectedProperty}     xpath=//div[@id='listRow']/div[5]/div/a/div[1]
 
 # Set initial value for variables
 ${Element}=     Set Variable    0
