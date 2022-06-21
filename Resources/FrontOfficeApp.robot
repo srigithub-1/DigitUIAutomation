@@ -7,8 +7,9 @@ Resource    ./PO/PropertyDetails.robot
 I Navigate to the "Condos.ca" Page
     The "Condos.ca" page should load
 
-I Wait for the Search Box on "Condos.ca" to be enabled and search for Toronto Properties
-    The Search Box should be enabled on the Landing Page and User should be able to enter "Toronto" in it
+I Wait for the Search Box on "Condos.ca" to be enabled and search for Properties
+    [Arguments]     ${City}
+    The Search Box should be enabled on the Landing Page and User should be able to search the properties    ${City}
 
 Properties Page Should Be Displayed
     All the Properties Should be Shown

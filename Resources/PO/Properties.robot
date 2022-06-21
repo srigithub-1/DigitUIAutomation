@@ -20,9 +20,9 @@ All the Properties Should be Shown
     # Wait Until Page with Properties is shown. Then CLose the Maps to see full screen view
     Wait Until Page Contains Element   ${Google_Maps}           timeout=5
     Click Element                      ${Google_Maps}
-    Wait Until Page Contains Element    ${PropertyListPage}     timeout=10
+    Wait Until Page Contains Element    ${SelectedProperty}     timeout=10
 
-    # Get the count of # of properties shown on the first page
+        # Get the count of # of properties shown on the first page
     ${NoofHouses}=   Get Element Count      ${PropertyCount}
     #Assign the count to another variable
     ${EndValue}=    Set Variable    ${NoofHouses}
@@ -44,5 +44,5 @@ All the Properties Should be Shown
         Log to Console  ${Element}
     END
 
-    # Click on the required Property
+   # Click on the required Property
     Click Element       ${SelectedProperty}

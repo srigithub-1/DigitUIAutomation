@@ -1,0 +1,8 @@
+{
+  "locators":
+  [
+    {
+      "SearchTextBox": "xpath=//div//input[@type='text']"
+    }
+  ]
+}
