@@ -37,22 +37,26 @@ SelectedProperty Amenities should be shown
         # Fetch the count of Amenities
         ${AmenitiesCount}   Get Element count   ${ListofAmenities}
 
-        # For Loop for fetching the Amenities list should contain sub list
-        FOR  ${j}  IN RANGE  1  ${AmenitiesCount}
-            ${AmenityName}      Get Text     xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]
-            #Append to the List
-            Append To List     ${Amenity}    ${AmenityName}
+        IF   ${AmenitiesCount} > 0
+            # Amenities 1-line header
+            Log to Console      Property Amenities Include:
+            # For Loop for fetching the Amenities list should contain sub list
+            FOR  ${j}  IN RANGE  1  ${AmenitiesCount}
+                ${AmenityName}      Get Text     xpath=//div[contains(@class,'CollapseContainer')]//div[2]//div//div//div//div[contains(@class,'AmenityIconContainer')]//div[${j}]//div[2]
+                #Append to the List
+                Append To List     ${Amenity}    ${AmenityName}
+            END
+            # Display the Amenities on Console
+            FOR  ${Amen}  IN  @{Amenity}
+                Log to Console      ${Amen}
+            END
+        ELSE
+            Log To Console    No Amenities. Individual House
         END
 
-        # Amenities 1-line header
-        Log to Console      Property Amenities Include:
-
-        # Display the Amenities on Console
-        FOR  ${Amen}  IN  @{Amenity}
-            Log to Console      ${Amen}
-        END
     ELSE
         Log To Console    Property Name Not Shown
         Log To Console    End of Test Suite
         Close All Browsers
+
     END
