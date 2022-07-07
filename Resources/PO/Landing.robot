@@ -31,7 +31,7 @@ The Search Box should be enabled on the Landing Page and User should be able to 
     ${SearchBoxStatus}=     Run Keyword And Return Status    Element Should be Enabled    ${SearchTextBox}
 
     IF  ${SearchBoxStatus} == True
-         Log To Console    Search Box Is Enabled
+         # Log To Console    Search Box Is Enabled
          Click Element    ${SearchTextBox}
          Input Text        ${SearchTextBox}         ${City}
 
