@@ -56,7 +56,6 @@ SelectedProperty Amenities should be shown
 
     ELSE
         Log To Console    Property Name Not Shown
-        Log To Console    End of Test Suite
         Close All Browsers
 
     END
